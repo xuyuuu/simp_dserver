@@ -1,4 +1,4 @@
-#netdispatch</br>   
+#simp_dserver</br>   
 This is a simple recursive DNS SERVER for handing A type request.   
 1. Using epoll for handing dns request events through libevnet lib.    
 2. Using multiple thread safety ring for dealing with data without a lock.    
