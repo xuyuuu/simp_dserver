@@ -1,6 +1,6 @@
 CFLAGS=
 LDFLAGS=-L../net_lib/ -lpthread -levent -lxml2 -lrt
-BIN=netdispatch
+BIN=simp_dserver
 
 OBJS=$(shell ls | grep "\.o$ ")
 
